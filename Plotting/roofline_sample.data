@@ -1,0 +1,13 @@
+#Machine Characteristics (Memory Ceilings)
+memroofs 1723.86 525.9
+mem_roof_names 'L1' 'HBM'
+comproofs 4250.98
+comp_roof_names 'FP64' 
+
+# Application Characteristics (Data points)
+AI_HBM 5.58 7.25 8.35 9.32 
+AI_L1 
+AI_L2 
+FLOPS 1185.75 1415.37 1715.67 2137.97
+labels 'base' 'opt1' 'opt2' 'opt3'
+ 
