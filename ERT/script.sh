@@ -12,5 +12,5 @@
 #SBATCH --qos=soc-gpu-kp
 
 module load cuda
-nvprof --print-gpu-summary ./sobel
-nvprof --kernels sobelKernel3 --metrics all ./sobel
+nvprof --print-gpu-summary ./ker
+nvprof --kernels sobel_kernel_shared_mem_reuse --metrics all ./ker
