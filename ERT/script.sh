@@ -13,4 +13,4 @@
 
 module load cuda
 nvprof --print-gpu-summary ./ker
-nvprof --kernels sobel_kernel_shared_mem_reuse --metrics all ./ker
+nvprof --kernels sobel_kernel_naive --metrics all ./ker
